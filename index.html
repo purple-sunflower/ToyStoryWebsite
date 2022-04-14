@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyStory</title> <!--웹페이지의 제목-->
+    <link rel="stylesheet" href="toystory.css"> <!--toystory.css 파일과 연결해 css파일의 속성을 적용할 수 있도록-->
+    <style>
+        #wrap{
+            width: 1200px;
+            height: 700px;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        #header{
+            width: 1200px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        #header>#logo{
+            width: 300px;
+            height: 100px;
+            background-color: lightpink;
+            float: left;
+        }
+        #header>#menu{
+            width: 900px;
+            height: 100px;
+            background-color: lightsalmon;
+            float: left;
+        }
+        #slide{
+            width: 1200px;
+            height: 300px;
+            background-color: antiquewhite;
+        }
+        #contents{
+            width: 1200px;
+            height: 200px;
+            background-color: antiquewhite;
+        }
+        #contents>#gallery{
+            width: 400px;
+            height: 200px;
+            background-color: lightblue;
+            float: left;
+        }
+        #contents>#banner{
+            width: 400px;
+            height: 200px;
+            background-color: lightgray;
+            float: left;
+        }
+        #contents>#shortcut{
+            width: 400px;
+            height: 200px;
+            background-color: lightgreen;
+            float: left;
+        }
+        #footer{
+            width: 1200px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        #footer>#logo2{
+            width: 300px;
+            height: 100px;
+            background-color: lightcyan;
+            float: left;
+        }
+        #footer>#copyright{
+            width: 600px;
+            height: 100px;
+            background-color: lightyellow;
+            float: left;
+        }
+        #footer>#sns{
+            width: 300px;
+            height: 100px;
+            background-color: lightseagreen;
+            float: left;
+        }
+    </style>
+    <!--css파일 대신 style 태그 사용-->
+    <!--float : left (왼쪽을 기준으로 차례대로 자리 잡음.)-->
+</head>
+<body>
+    <div id="wrap"> <!--전체 틀-->
+        <header id="header">
+            <div id="logo">
+                <a href="https://terms.naver.com/entry.naver?docId=3535168&cid=58544&categoryId=58544"><img src="./images/logo.jpg" style="width: 300px; height: 100px;" title="toystory logo"></a>
+            </div>
+            <div id="menu">
+                메뉴 (캐릭터 이름 넣기)
+            </div>
+        </header>
+        <div id="slide">
+            슬라이드 (캐릭터 사진 계속 변경되도록)
+        </div>
+        <div id="contents">
+            <div id="gallery">
+                갤러리 (캐릭터들이 같이 찍은 사진 모음)
+            </div>
+            <div id="banner">
+                배너
+            </div>
+            <div id="shortcut">
+                바로가기
+            </div>
+        </div>
+        <div id="footer">
+            <div id="logo2">
+                로고2
+            </div>
+            <div id="copyright">
+                카피라이트
+            </div>
+            <div id="sns">
+                SNS
+            </div>
+        </div>
+    </div>
+</body>
+</html>
