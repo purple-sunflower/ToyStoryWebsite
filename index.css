@@ -1,5 +1,9 @@
 @charset "utf-8";
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'dongdong';
+}
 ul{
     list-style-type: none;
 }
@@ -7,91 +11,148 @@ ul{
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: 'dongdong';
+    src: url("../fonts/Cafe24Dongdong.ttf");
+}
 
 #wrap{
-    width: 1200px;
-    height: 700px;
-    text-align: center;
+    width: 1470px;
+    height: 5250px;
     background-color: antiquewhite;
 }
+
 #header{
-    width: 1200px;
-    height: 100px;
-    background-color: antiquewhite;
+    width: 1470px;
+    height: 135px;
+    background-color: aqua;
 }
-#header>#logo{
-    width: 200px;
-    height: 100px;
-    background-color: lightpink;
+
+#header>#disney{
+    width: 1470px;
+    height: 60px;
+    background-color: aliceblue;
+}
+
+#header>#disney>#logo{
+    width: 130px;
+    height: 60px;
+    background-color: #fff;
     float: left;
 }
-#header>#menu{
-    width: 600px;
-    height: 100px;
-    background-color: lightsalmon;
+
+#header>#disney>#logo>a>img{
+    width: 110px;
+    height: 60px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#header>#disney>#menu{
+    width: 550px;
+    height: 60px;
+    background-color: #fff;
+    float: left;
+    margin-right: 390px;
+}
+
+#header>#disney>#menu>#gnb{ /*굳이 있어야 함?*/
+    width: 550px;
+    height: 60px;
+    background-color: #fff;
     float: left;
 }
-#header>#menu>#gnb>li>a{ /*여기 뭔가 확인 필요.*/
+
+#header>#disney>#menu>#gnb>li{
+    float: left;
+}
+
+#header>#disney>#menu>#gnb>li>a{
     display: block;
-    width: 170px;
-    height: 20px;
-    background-color: rgb(247, 191, 168);
-    float: left;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
 }
-#header>#search{
+
+#header>#disney>#menu>#gnb>li>#menu1{
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+}
+
+#header>#disney>#menu>#gnb>li>#menu2{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+}
+
+#header>#disney>#menu>#gnb>li>#menu3{
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+}
+
+#header>#disney>#menu>#gnb>li>#menu4{
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+}
+
+#header>#disney>#menu>#gnb>li>#menu5{
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+}
+
+#header>#disney>#search-wrap{
     width: 400px;
-    height: 100px;
-    background-color: lavender;
+    height: 60px;
+    background-color: rgb(88, 88, 120);
     float: left;
 }
-#slide{
-    width: 1200px;
-    height: 300px;
-    background-color: antiquewhite;
+
+#header>#disney>#search-wrap>input{
+    width: 320px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
+
+#header>#toystory{
+    width: 1470px;
+    height: 75px;
+    background-color: rgb(39, 39, 89);
+}
+
+#header>#toystory>#logo{
+    width: 150px;
+    height: 75px;
+    background-color: rgb(39, 39, 89);
+    float: left;
+    margin-right: 920px;
+    padding-left: 25px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#header>#toystory>#logo>a>img{
+    width: 100px;
+    height: 55px;
+}
+
+#header>#toystory>#menu{
+    width: 400px;
+    height: 75px;
+    background-color: coral;
+    float: left;
+}
+
 #contents{
-    width: 1200px;
-    height: 200px;
-    background-color: antiquewhite;
-}
-#contents>#gallery{
-    width: 400px;
-    height: 200px;
-    background-color: lightblue;
-    float: left;
-}
-#contents>#banner{
-    width: 400px;
-    height: 200px;
-    background-color: lightgray;
-    float: left;
-}
-#contents>#shortcut{
-    width: 400px;
-    height: 200px;
-    background-color: lightgreen;
-    float: left;
-}
-#footer{
-    width: 1200px;
-    height: 100px;
-    background-color: antiquewhite;
-}
-#footer>#logo2{
-    width: 300px;
-    height: 100px;
-    background-color: lightcyan;
-    float: left;
-}
-#footer>#copyright{
-    width: 600px;
-    height: 100px;
-    background-color: lightyellow;
-    float: left;
-}
-#footer>#sns{
-    width: 300px;
-    height: 100px;
-    background-color: lightseagreen;
-    float: left;
+    width: 1470px;
+    height: 5000px;
+    background-color: cadetblue;
 }
