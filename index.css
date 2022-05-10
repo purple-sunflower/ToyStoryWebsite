@@ -25,13 +25,13 @@ a{
 #header{
     width: 1470px;
     height: 135px;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 #header>#disney{
     width: 1470px;
     height: 60px;
-    background-color: aliceblue;
+    background-color: #fff;
 }
 
 #header>#disney>#logo{
@@ -122,6 +122,12 @@ a{
     margin-top: 10px;
 }
 
+#header>#disney>#search-wrap>button>img{ /*검색버튼 수정하세요^_^*/
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
 #header>#toystory{
     width: 1470px;
     height: 75px;
@@ -147,12 +153,71 @@ a{
 #header>#toystory>#menu{
     width: 400px;
     height: 75px;
-    background-color: coral;
+    background-color: #fff;
     float: left;
+}
+
+#header>#toystory>#menu>#gnb>li{
+    float: left;
+}
+
+#header>#toystory>#menu>#gnb>li>a{
+    display: block;
+    width: 80px;
+    height: 75px;
+    background-color: rgb(39, 39, 89);
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-left: solid ivory 1px;
+    color: rgb(158, 211, 228);
+}
+
+#header>#toystory>#menu>#gnb>li>#menu1{
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#header>#toystory>#menu>#gnb>li>#menu2{
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
 #contents{
     width: 1470px;
     height: 5000px;
     background-color: cadetblue;
+}
+
+#contents>#contents-wrap{
+    width: 970px;
+    height: 5050px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+#footer{
+    width: 1470px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+#footer>#logo{
+    width: 1470px;
+    height: 70px;
+    background-color: cadetblue;
+}
+
+#footer>#logo>img{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 655px;
+    top: 20px;
+}
+
+#footer>#copyright{
+    width: 1470px;
+    height: 130px;
+    background-color: coral;
 }
